@@ -1,0 +1,380 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.big-body{
+    width: 1341px;
+    margin: auto;
+}
+.one-color{
+    width: 100%;
+    background-color: rgb(247, 69, 4);
+    padding: 4px;
+}
+/* navbar start */
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-top: 1%;
+    margin: auto;
+}
+.akadem{
+    margin-left: 12%;
+}
+nav h1{
+    margin-bottom: 0.6%;
+}
+.btn-one{
+    width: 11%;
+    margin-bottom: 2%;
+    padding-top: 0.5%; 
+    padding-bottom: 0.5%;
+    border: 1px solid rgb(247, 69, 4); 
+    background-color: rgb(247, 69, 4);
+    border-radius: 3px;  
+    color: white;
+   
+}
+.home-navv{
+    margin-left: 12%;
+}
+.home-nav:hover{
+  border-bottom: 3px solid coral;
+  color: coral;
+}
+.home-navv:hover{
+    border-bottom: 3px solid coral;
+    color: coral;
+}
+/* navbar end */
+/* middil start */
+.level-one{
+    width: 100%;
+    display: flex;
+    background-color: #252420;
+    
+}
+.level-one-one{
+    width: 50%;
+    padding: 5% 8% 8% 8%;
+}
+.level-one-one h1{
+    color: white;
+}
+.level-one-one p{
+    width: 60%;
+    color: rgb(232, 231, 231);
+}
+.level-one-one div{
+    width: 12%;
+    border: 1.5px solid rgb(247, 69, 4);
+    margin-bottom: 5%;
+}
+.btn-two{
+    width: 25%;
+    margin-bottom: 2%;
+    padding-top: 1%; 
+    padding-bottom: 1%;
+    border: 1px solid rgb(247, 69, 4); 
+    background-color: rgb(247, 69, 4);
+    border-radius: 3px;  
+    color: white;
+}
+.level-one-two{
+    width: 50%;
+    
+}
+.level-one-two img{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: -15%;
+    box-shadow: 15px 15px 0px   coral;
+    border-radius: 7px;
+}
+.level-two{
+    width: 100%;
+    margin-top: 5%;
+}
+.level-two-pen{
+    width: 5%;
+    border-bottom: 4px solid coral;
+    margin-left: 9%;
+    margin-top: 13%;
+}
+.level-two h1{
+    margin-left: 9%;
+    margin-top: 2%;
+    font-size: 50px;
+}
+.level-two-one{
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+}
+.level-two-smoll{
+    width: 20%;
+    margin: auto;
+    margin-left: 9%;
+    text-align: start;
+}
+.level-two-smoll img{
+    margin-left: 15%;
+}
+.level-three{
+    width: 100%;
+}
+.black-div{
+    width: 85%;
+    background-color: #252420;
+    border-radius: 15px;
+    margin: 10% auto;
+    display: flex;
+}
+.level-three-one{
+    width: 50%;
+    color: white;
+    margin-left: 6%;
+    margin-top: 7%;
+
+}
+.level-three-one p{
+    color: rgb(224, 223, 223);
+}
+.level-three-two{
+    width: 50%;
+}
+.level-three-two img{
+    margin-top:-14% ;
+    margin-bottom: 7%;
+}
+.footer-div{
+    width: 86%;
+    margin-top: 20%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.9%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid #252420;
+}
+.footer-div h1{
+    margin-bottom: -0.6%;
+}
+
+.footer-div-img-two{
+    margin-left: 68%;
+}
+/* middil end */
+
+/* footer start */
+footer{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    margin-top: 6%;
+}
+.footer-big-one{
+    width: 50%;
+    display: flex;
+    gap: 30%;
+}
+.footer-big-two{
+    width: 50%;
+    display: flex;
+    gap: 30%;
+}
+/* footer end */
+/* media start */
+
+@media screen and (max-width: 700px) {
+    .level-one{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .level-one-one{
+      width: 50%;
+      margin: 10% auto;
+      text-align: center;
+      padding: 0%;
+  
+    }
+    .level-one-one div{
+      width: 100%;
+      border-bottom: 4px solid coral ;
+    }
+    .level-one-one h1{
+        font-size: 60px;
+    }
+    .level-one-one p{
+      width: 60%;
+      margin: auto;
+      margin-bottom:4% ;
+      font-size: 20px;
+     }
+     .level-one-two{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5%;
+    } 
+  
+  
+    .black-div{
+      flex-direction: column-reverse;
+      margin: 10% auto;
+      text-align: center;
+    }
+    .level-three-one{
+      margin: auto;
+      margin-bottom: 5%;
+    }
+    .level-three-one h1{
+        font-size: 50px;
+    }
+    .level-three-one p{
+        font-size: 30px;
+    }
+    .btn-two{
+        width: 50%;
+        font-size: 30px;
+    }
+    .level-three-two{
+      margin: auto;
+    }
+  }
+@media screen and (max-width: 400px) {
+    .level-one{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .level-one-one{
+      width: 50%;
+      margin: 10% auto;
+      text-align: center;
+      padding: 0%;
+  
+    }
+    .level-one-one div{
+      width: 100%;
+      border-bottom: 4px solid coral ;
+    }
+    .level-one-one h1{
+        font-size: 60px;
+    }
+    .level-one-one p{
+      width: 60%;
+      margin: auto;
+      margin-bottom:4% ;
+      font-size: 20px;
+     }
+    .level-one-two{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5%;
+    } 
+    .level-two{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .level-two h1{
+        margin-left: 0%;
+        font-size: 60px;
+    }
+    .level-two-pen{
+        width: 80%;
+        margin-left: 0%;
+        margin: 7% auto;
+    }
+    .level-two-one{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      display: block;
+    }
+    .level-two-smoll{
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .level-two-smoll h2{
+        font-size: 45px;
+    }
+    .level-two-smoll p{
+        width: 30%;
+        text-align: center;
+        margin: 2% auto;
+        font-size: 30px;
+    }
+    .level-two-smoll img{
+        margin-left: 0%;
+    }
+  .level-two-one{
+    display: block;
+  }
+    .black-div{
+      flex-direction: column-reverse;
+      margin: 10% auto;
+      text-align: center;
+    }
+    .level-three-one{
+      margin: auto;
+      margin-bottom: 5%;
+    }
+    .level-three-one h1{
+        font-size: 50px;
+    }
+    .level-three-one p{
+        font-size: 30px;
+    }
+    .btn-two{
+        width: 50%;
+        font-size: 30px;
+    }
+    .level-three-two{
+      margin: auto;
+    }
+
+  footer{
+    width: 100%;
+    display: block;
+    gap: 0%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-big-one{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+
+  }
+  .footer-big-two{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+  }
+  .footer-one{
+    width: 40%;
+  }
+  .footer-two{
+    width: 40%;
+  }
+  .footer-three{
+    width: 40%;
+    text-align: start;
+  }
+  .footer-four{
+    width: 40%;
+    text-align: start;
+  }
+
+
+
+  }
+/* media end */
