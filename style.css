@@ -1,17 +1,6 @@
 *{
     margin-top: 0px;
     margin-left: 0px;
-
-}
-
-.big-body{
-    width: 1341px;
-    margin: auto;
-}
-.one-color{
-    width: 100%;
-    background-color: rgb(247, 69, 4);
-    padding: 4px;
 }
 /* navbar start */
 
@@ -22,6 +11,7 @@ nav{
     gap: 2%;
     padding-top: 1%;
     margin: auto;
+    border-top: 4px solid coral;
 }
 .akadem{
     margin-left: 12%;
@@ -93,8 +83,6 @@ nav h1{
     width: 80%;
     margin-top: 5%;
     margin-bottom: -15%;
-    box-shadow: 15px 15px 0px   coral;
-    border-radius: 7px;
 }
 .level-two{
     width: 100%;
