@@ -1,7 +1,9 @@
 *{
     margin-top: 0px;
     margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
 }
+
 /* navbar start */
 
 nav{
@@ -11,7 +13,7 @@ nav{
     gap: 2%;
     padding-top: 1%;
     margin: auto;
-    border-top: 4px solid coral;
+    border-top: 4px solid #FF7500;
 }
 .akadem{
     margin-left: 12%;
@@ -19,27 +21,39 @@ nav{
 nav h1{
     margin-bottom: 0.6%;
 }
+nav h1:hover{
+  opacity: 0.8;
+}
+nav h1:active{
+  opacity: 0.6;
+}
 .btn-one{
     width: 11%;
     margin-bottom: 2%;
     padding-top: 0.5%; 
     padding-bottom: 0.5%;
-    border: 1px solid rgb(247, 69, 4); 
-    background-color: rgb(247, 69, 4);
+    border: 1px solid #FF7500; 
+    background-color: #FF7500;
     border-radius: 3px;  
     color: white;
    
 }
 .home-navv{
     margin-left: 12%;
+    border-bottom: 2px solid #FF7500;
 }
-.home-nav:hover{
-  border-bottom: 3px solid coral;
-  color: coral;
+
+nav h4:hover{
+    color: #FF7500;
 }
-.home-navv:hover{
-    border-bottom: 3px solid coral;
-    color: coral;
+nav h4:active{
+  opacity: 0.6;
+}
+.btn-one:hover{
+  opacity: 0.8;
+}
+.btn-one:active{
+  opacity: 0.6;
 }
 /* navbar end */
 /* middil start */
@@ -62,7 +76,7 @@ nav h1{
 }
 .level-one-one div{
     width: 12%;
-    border: 1.5px solid rgb(247, 69, 4);
+    border: 1.5px solid #FF7500;
     margin-bottom: 5%;
 }
 .btn-two{
@@ -70,10 +84,16 @@ nav h1{
     margin-bottom: 2%;
     padding-top: 1%; 
     padding-bottom: 1%;
-    border: 1px solid rgb(247, 69, 4); 
-    background-color: rgb(247, 69, 4);
+    border: 1px solid #FF7500; 
+    background-color: #FF7500;
     border-radius: 3px;  
     color: white;
+}
+.btn-two:hover{
+  opacity: 0.8;
+}
+.btn-two:active{
+   opacity: 0.6;
 }
 .level-one-two{
     width: 50%;
@@ -90,7 +110,7 @@ nav h1{
 }
 .level-two-pen{
     width: 5%;
-    border-bottom: 4px solid coral;
+    border-bottom: 4px solid #FF7500;
     margin-left: 9%;
     margin-top: 13%;
 }
@@ -150,6 +170,12 @@ nav h1{
     padding-bottom: 3%;
     border-bottom: 2px solid #252420;
 }
+.footer-div h1:hover{
+  opacity: 0.8;
+}
+.footer-div h1:active{
+  opacity: 0.6;
+}
 .footer-div h1{
     margin-bottom: -0.6%;
 }
@@ -176,6 +202,12 @@ footer{
     display: flex;
     gap: 30%;
 }
+.footer-big-one h4:hover{
+   color: #FF7500;
+}
+.footer-big-two h4:hover{
+  color: #FF7500;
+}
 /* footer end */
 /* media start */
 
@@ -193,7 +225,7 @@ footer{
     }
     .level-one-one div{
       width: 100%;
-      border-bottom: 4px solid coral ;
+      border-bottom: 4px solid #FF7500 ;
     }
     .level-one-one h1{
         font-size: 60px;
@@ -248,7 +280,7 @@ footer{
     }
     .level-one-one div{
       width: 100%;
-      border-bottom: 4px solid coral ;
+      border-bottom: 4px solid #FF7500 ;
     }
     .level-one-one h1{
         font-size: 60px;
