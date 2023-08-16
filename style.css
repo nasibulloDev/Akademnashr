@@ -11,15 +11,15 @@ nav{
     display: flex;
     align-items: center;
     gap: 2%;
-    padding-top: 1%;
     margin: auto;
     border-top: 4px solid #FF7500;
 }
 .akadem{
-    margin-left: 12%;
+    margin-left: 8%;
 }
+
 nav h1{
-    margin-bottom: 0.6%;
+    margin-bottom: 1%;
 }
 nav h1:hover{
   opacity: 0.8;
@@ -27,26 +27,38 @@ nav h1:hover{
 nav h1:active{
   opacity: 0.6;
 }
+ul{
+  width: 40%;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 10%;
+  gap: 2%;
+}
 .btn-one{
-    width: 11%;
-    margin-bottom: 2%;
-    padding-top: 0.5%; 
-    padding-bottom: 0.5%;
+    /* height: 10%; */
+    text-align: center;
     border: 1px solid #FF7500; 
     background-color: #FF7500;
     border-radius: 3px;  
     color: white;
-   
-}
-.home-navv{
-    margin-left: 12%;
-    border-bottom: 2px solid #FF7500;
+    margin-left: 1%;
+    padding: 2%;
+    
 }
 
-nav h4:hover{
+li{
+  /* height: 5%; */
+  text-align: center;
+  /* padding-left: 1%; */
+  list-style: none;
+  margin-top: 2.3%;
+
+}
+
+nav li:hover{
     color: #FF7500;
 }
-nav h4:active{
+nav li:active{
   opacity: 0.6;
 }
 .btn-one:hover{
@@ -65,29 +77,30 @@ nav h4:active{
 }
 .level-one-one{
     width: 50%;
-    padding: 5% 8% 8% 8%;
+    padding: 8% 0% 8% 8%;
 }
 .level-one-one h1{
     color: white;
 }
 .level-one-one p{
-    width: 60%;
+    width: 62%;
     color: rgb(232, 231, 231);
 }
-.level-one-one div{
+hr{
     width: 12%;
     border: 1.5px solid #FF7500;
     margin-bottom: 5%;
 }
 .btn-two{
     width: 25%;
-    margin-bottom: 2%;
-    padding-top: 1%; 
-    padding-bottom: 1%;
+    padding: 10px;
+    margin-top: 2%;
+    display: inline-block;
     border: 1px solid #FF7500; 
     background-color: #FF7500;
     border-radius: 3px;  
     color: white;
+    margin-bottom: 5%;
 }
 .btn-two:hover{
   opacity: 0.8;
@@ -100,7 +113,7 @@ nav h4:active{
     
 }
 .level-one-two img{
-    width: 80%;
+    width: 100%;
     margin-top: 5%;
     margin-bottom: -15%;
 }
@@ -108,8 +121,8 @@ nav h4:active{
     width: 100%;
     margin-top: 5%;
 }
-.level-two-pen{
-    width: 5%;
+.hr-2{
+    width: 10%;
     border-bottom: 4px solid #FF7500;
     margin-left: 9%;
     margin-top: 13%;
@@ -132,6 +145,15 @@ nav h4:active{
 }
 .level-two-smoll img{
     margin-left: 15%;
+    margin-top: 25%;
+    text-align: center;
+}
+.level-two-smoll div{
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  background-color: rgba(255, 117, 0, 0.20);
+  margin-bottom: 15%;
 }
 .level-three{
     width: 100%;
@@ -157,12 +179,11 @@ nav h4:active{
     width: 50%;
 }
 .level-three-two img{
-    margin-top:-14% ;
-    margin-bottom: 7%;
+    width: 90%;
+    margin-top:-14%;
 }
 .footer-div{
     width: 86%;
-    margin-top: 20%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -176,13 +197,13 @@ nav h4:active{
 .footer-div h1:active{
   opacity: 0.6;
 }
-.footer-div h1{
-    margin-bottom: -0.6%;
+
+.footer-div div{
+  margin-left: 63%;
+  text-align: center;
 }
 
-.footer-div-img-two{
-    margin-left: 68%;
-}
+
 /* middil end */
 
 /* footer start */
@@ -210,28 +231,47 @@ footer{
 }
 /* footer end */
 /* media start */
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+  .level-one-one p{
+    width: 90%;
+  }
+  .level-three-two img{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .footer-div div{
+    margin-left: 54%;
+  }
+}
+@media screen and (max-width: 750px) {
     .level-one{
       display: flex;
       flex-direction: column-reverse;
     }
     .level-one-one{
-      width: 50%;
+      width:90%;
       margin: 10% auto;
       text-align: center;
       padding: 0%;
-  
+    }
+    hr{
+      margin: 0px;
+      width: 100%;
+    }
+    .hr-2{
+      margin-left: 5%;
+      width: 90%;
     }
     .level-one-one div{
       width: 100%;
       border-bottom: 4px solid #FF7500 ;
     }
     .level-one-one h1{
+        width: 90%;
         font-size: 60px;
     }
     .level-one-one p{
-      width: 60%;
+      width: 90%;
       margin: auto;
       margin-bottom:4% ;
       font-size: 20px;
@@ -241,6 +281,9 @@ footer{
         margin: auto;
         margin-bottom: 5%;
     } 
+    .level-one-two{
+      width: 80%;
+    }
   
   
     .black-div{
@@ -249,6 +292,7 @@ footer{
       text-align: center;
     }
     .level-three-one{
+      width: 90%;
       margin: auto;
       margin-bottom: 5%;
     }
@@ -263,39 +307,12 @@ footer{
         font-size: 30px;
     }
     .level-three-two{
+      width: 90%;
       margin: auto;
     }
   }
-@media screen and (max-width: 400px) {
-    .level-one{
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .level-one-one{
-      width: 50%;
-      margin: 10% auto;
-      text-align: center;
-      padding: 0%;
-  
-    }
-    .level-one-one div{
-      width: 100%;
-      border-bottom: 4px solid #FF7500 ;
-    }
-    .level-one-one h1{
-        font-size: 60px;
-    }
-    .level-one-one p{
-      width: 60%;
-      margin: auto;
-      margin-bottom:4% ;
-      font-size: 20px;
-     }
-    .level-one-two{
-        text-align: center;
-        margin: auto;
-        margin-bottom: 5%;
-    } 
+@media screen and (max-width: 500px) {
+
     .level-two{
         width: 100%;
         margin: auto;
@@ -303,7 +320,7 @@ footer{
     }
     .level-two h1{
         margin-left: 0%;
-        font-size: 60px;
+        font-size: 50px;
     }
     .level-two-pen{
         width: 80%;
@@ -325,13 +342,15 @@ footer{
         font-size: 45px;
     }
     .level-two-smoll p{
-        width: 30%;
+        width: 90%;
         text-align: center;
-        margin: 2% auto;
+        margin: auto;
         font-size: 30px;
     }
-    .level-two-smoll img{
-        margin-left: 0%;
+    .level-two-smoll div{
+       margin: 10% auto;
+       padding: 0px;
+       margin-bottom: 0%;
     }
   .level-two-one{
     display: block;
@@ -341,23 +360,10 @@ footer{
       margin: 10% auto;
       text-align: center;
     }
-    .level-three-one{
-      margin: auto;
-      margin-bottom: 5%;
+    .footer-div div{
+      margin-left: 10%;
     }
-    .level-three-one h1{
-        font-size: 50px;
-    }
-    .level-three-one p{
-        font-size: 30px;
-    }
-    .btn-two{
-        width: 50%;
-        font-size: 30px;
-    }
-    .level-three-two{
-      margin: auto;
-    }
+
 
   footer{
     width: 100%;
@@ -371,6 +377,7 @@ footer{
     text-align: center;
     margin: auto;
     font-size: 30px;
+    gap: 0px;
 
   }
   .footer-big-two{
@@ -378,23 +385,55 @@ footer{
     text-align: center;
     font-size: 30px;
     margin: auto;
+    gap: 0px;
   }
   .footer-one{
-    width: 40%;
+    width: 50%;
   }
   .footer-two{
-    width: 40%;
+    width: 50%;
   }
   .footer-three{
-    width: 40%;
-    text-align: start;
+    width: 50%;
   }
   .footer-four{
-    width: 40%;
-    text-align: start;
+    width: 50%;
   }
 
 
 
   }
+@media screen and (max-width: 350px) {
+  .level-one h1{
+    font-size: 40px;
+  }
+  .level-two h1{
+    font-size: 40px;
+  }
+  .btn-two{
+    width: 60%;
+  }
+  .footer-big-one{
+    width: 100%;
+    display: block;
+  }
+  .footer-big-two{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .footer-one{
+    width: 90%;
+  }
+  .footer-two{
+    width: 90%;
+  }
+  .footer-three{
+    width: 90%;
+  }
+  .footer-four{
+    width: 90%;
+  }
+}
+
 /* media end */
