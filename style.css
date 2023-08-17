@@ -5,7 +5,14 @@
 }
 
 /* navbar start */
-
+.contener{
+  width: 100%;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 nav{
     width: 100%;
     display: flex;
@@ -13,6 +20,11 @@ nav{
     gap: 2%;
     margin: auto;
     border-top: 4px solid #FF7500;
+}
+.nav-contener{
+  display: flex;
+  /* justify-content:space-between; */
+  align-items: center;
 }
 .akadem{
     margin-left: 8%;
@@ -28,10 +40,10 @@ nav h1:active{
   opacity: 0.6;
 }
 ul{
-  width: 40%;
+  width: 50%;
   display: flex;
   margin-top: 1%;
-  margin-left: 10%;
+  margin-left: 15%;
   gap: 2%;
 }
 .btn-one{
@@ -72,8 +84,12 @@ nav li:active{
 .level-one{
     width: 100%;
     display: flex;
-    background-color: #252420;
-    
+    background-color: #252420;   
+}
+.level-one-contener{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 .level-one-one{
     width: 50%;
@@ -121,6 +137,10 @@ hr{
     width: 100%;
     margin-top: 5%;
 }
+.level-two-contener{
+  justify-content:space-between;
+  align-items: center;
+}
 .hr-2{
     width: 10%;
     border-bottom: 4px solid #FF7500;
@@ -158,6 +178,11 @@ hr{
 .level-three{
     width: 100%;
 }
+.level-three-contener{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
 .black-div{
     width: 85%;
     background-color: #252420;
@@ -185,11 +210,14 @@ hr{
 .footer-div{
     width: 86%;
     margin: auto;
-    display: flex;
-    align-items: center;
     gap: 0.9%;
     padding-bottom: 3%;
     border-bottom: 2px solid #252420;
+}
+.level-footer-contener{
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
 }
 .footer-div h1:hover{
   opacity: 0.8;
@@ -198,7 +226,7 @@ hr{
   opacity: 0.6;
 }
 
-.footer-div div{
+.level-footer-contener div{
   margin-left: 63%;
   text-align: center;
 }
@@ -212,6 +240,11 @@ footer{
     display: flex;
     margin: auto;
     margin-top: 6%;
+}
+.footer-contener{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 .footer-big-one{
     width: 50%;
@@ -239,7 +272,7 @@ footer{
     width: 100%;
     margin-top: 5%;
   }
-  .footer-div div{
+  .level-footer-contener div{
     margin-left: 54%;
   }
 }
@@ -310,6 +343,21 @@ footer{
       width: 90%;
       margin: auto;
     }
+
+    .level-one-contener{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .level-two-contener{
+      display: block;
+    }
+    .level-three-contener{
+      display: block;
+    }
+
+    .footer-contener{
+      display: block;
+    }
   }
 @media screen and (max-width: 500px) {
 
@@ -360,13 +408,11 @@ footer{
       margin: 10% auto;
       text-align: center;
     }
-    .footer-div div{
+    .level-footer-contener div{
       margin-left: 10%;
     }
-
-
-  footer{
-    width: 100%;
+  .footer-contener{
+    width: 90%;
     display: block;
     gap: 0%;
     margin: auto;
