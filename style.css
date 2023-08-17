@@ -7,8 +7,6 @@
 /* navbar start */
 .contener{
   width: 95%;
-  /* max-width: 1120px; */
-  min-width: 279px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: auto;
@@ -477,14 +475,18 @@ footer{
     width: 60%;
   }
   .icons-footer-div{
-    margin-left: 0px !important;
+    margin-left: 50px !important;
   }
   .footer-div{
     padding: 0px;
   }
   .level-footer-contener{
-    padding: 0px;
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: flex-start;
   }
+
   .contener{
     padding: 0px;
   }
