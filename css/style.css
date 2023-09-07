@@ -14,7 +14,7 @@
 }
 nav{
     width: auto 1440px;
-    height: 85.18px;
+    height: 91.18px;
     display: flex;
     align-items: center;
     gap: 2%;
@@ -31,10 +31,12 @@ nav{
 .nav-container-div{
   display: flex;
   gap: 12px;
+  margin-bottom: 6px;
 }
     
 .nav-h1-a{
-color:#ff7500;
+  font-size: 25px;
+  color:#ff7500;
 }
 
 
@@ -53,7 +55,7 @@ color:#ff7500;
 .nav-ul{
   width: 58%;
   display: flex;
-  gap: 41px;
+  gap: 29px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -166,33 +168,37 @@ color:#ff7500;
 }
 .level-two{
     width: 100%;
-    margin-top: 5%;
+    margin-top: 14.2%;
 }
 .level-two-container{
   justify-content:space-between;
   align-items: center;
 }
 .hr-2{
-    width: 10%;
+    width: 6%;
     border-bottom: 4px solid #FF7500;
-    margin-left: 9%;
+    margin-left: 7%;
     margin-top: 13%;
 }
 .level-two-container-h1{
-    margin-left: 9%;
-    margin-top: 2%;
-    font-size: 50px;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    font-size: 66px;
 }
 .level-two-one{
     width: 100%;
     display: flex;
     margin-top: 6%;
+    gap: 0px;
 }
 .level-two-smoll{
-    width: 21.4%;
-    margin: auto;
-    margin-left: 9%;
+    width: 22.5%;
+    margin-left: 7%;
+    padding-top: 5px;
     text-align: start;
+}
+.level-two-smoll-p{
+  width: 100%;
 }
 .level-two-smoll-img{
     margin-left: 15%;
@@ -204,11 +210,12 @@ color:#ff7500;
   height: 100px;
   border-radius: 60%;
   background-color: rgba(255, 117, 0, 0.20);
-  margin-bottom: 15%;
+  margin-bottom: 11%;
 }
 .level-three{
     width: auto 1100px;
     height: auto 419px;
+    margin-top: 14.5%;
 }
 .level-three-container{
   display: flex;
@@ -225,11 +232,16 @@ color:#ff7500;
 .level-three-one{
     width: 50%;
     color: white;
-    margin-left: 6%;
-    margin-top: 7%;
-
+    margin-left: 5.4%;
+    margin-top: 4%;
+}
+.level-three-one-h11{
+  font-size: 39px;
 }
 .level-three-one-p{
+  margin-bottom: 1%;
+  padding-left: 2px;
+  font-size: 17px;
     color: rgb(224, 223, 223);
 }
 .level-three-two{
@@ -238,13 +250,15 @@ color:#ff7500;
 .level-three-two-img{
     width: auto 440px;
     height: auto 440px;
-    margin-top:-14%;
+    margin-top:-16%;
+    margin-left: 15px;
 }
 .footer-div{
     width: 86%;
     margin: auto;
     gap: 0.9%;
     padding-bottom: 3%;
+    margin-top: 7%;
     border-bottom: 2px solid #252420;
 }
 .level-footer-container{
@@ -275,7 +289,7 @@ footer{
     width: 86%;
     display: flex;
     margin: auto;
-    margin-top: 6%;
+    margin-top: 4%;
 }
 .footer-container{
   display: flex;
@@ -285,12 +299,12 @@ footer{
 .footer-big-one{
     width: 50%;
     display: flex;
-    gap: 30%;
+    gap: 38%;
 }
 .footer-big-two{
     width: 50%;
     display: flex;
-    gap: 30%;
+    gap: 27%;
 }
 .footer-big-one-h4:hover{
    color: #FF7500;
