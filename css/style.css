@@ -1,9 +1,13 @@
-*{
-    margin-top: 0px;
-    margin-left: 0px;
-    font-family: 'Roboto', sans-serif;
-}
+:root {
+  --accent-color: #ff7500;
 
+  --text-font: "Roboto", "Arial", sans-serif;
+  --heading-font: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+body{
+  font-family: var(--text-font);
+
+}
 /* navbar start */
 .container{
   width: 95%;
@@ -127,6 +131,7 @@ nav{
     width: 12%;
     border: 1.5px solid #FF7500;
     margin-bottom: 8%;
+    margin-left: 0%;
 }
 .btn-two{
   width: 25%;
